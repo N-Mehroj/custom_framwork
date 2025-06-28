@@ -1,0 +1,16 @@
+{
+    "name": "nmehroj/oop_routing",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "N-Mehroj",
+            "email": "nmehroj2004@mail.ru"
+        }
+    ],
+    "require": {}
+}
