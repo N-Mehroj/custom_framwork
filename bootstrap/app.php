@@ -1,9 +1,9 @@
 <?php
 
-use Core\Routing\Router;
+use Core\KernelContainer;
 
-$router = new Router();
+$app = new KernelContainer();
+$GLOBALS['app'] = $app;
 
-require_once __DIR__ . '/../routes/web.php';
-
-return $router;
+$app->bind('config', require __DIR__ . '/../config/config.php');
+return $app;

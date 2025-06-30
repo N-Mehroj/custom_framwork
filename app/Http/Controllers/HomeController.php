@@ -1,11 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
+use Core\Support\Facade\Log;
+
 class HomeController extends Controller
 {
     public function index()
     {
-        return "Bosh sahifa";
+        return Log::warning("Bosh sahifa" );
+//        return "Bosh sahifa";
     }
 
     public function about()

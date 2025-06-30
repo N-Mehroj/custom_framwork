@@ -1,1 +1,8 @@
-[2025-06-28 07:30:30] ERROR: Method index not found in controller App\Http\Controllers\HomeController
+
+[2025-06-30 16:55:51] [INFO] Cannot resolve [config] from container.
+[2025-06-30 16:56:06] [INFO] Cannot resolve [Array] from container.
+[2025-06-30 16:56:20] [INFO] Cannot resolve  from container. {"logging":{"default":"file","channels":{"file":{"path":"\/home\/nmehroj\/Desktop\/OOP_Routing\/config\/..\/storage\/logs\/app.log","level":"debug"}}}}
+[2025-06-30 16:57:39] [INFO] Cannot resolve  from container. array
+[2025-06-30 16:58:50] [WARNING] Bosh sahifa {"logging":{"default":"file","channels":{"file":{"path":"\/home\/nmehroj\/Desktop\/OOP_Routing\/config\/..\/storage\/logs\/app.log","level":"debug"}}}}
+[2025-06-30 17:01:27] [WARNING] Bosh sahifa {"logging":{"default":"file","channels":{"file":{"path":"\/home\/nmehroj\/Desktop\/OOP_Routing\/config\/..\/storage\/logs\/app.log","level":"debug"}}}}
+[2025-06-30 17:44:24] [WARNING] Bosh sahifa
