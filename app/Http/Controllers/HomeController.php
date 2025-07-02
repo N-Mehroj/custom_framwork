@@ -7,7 +7,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return Log::warning("Bosh sahifa" );
+        return Log::warning("Bosh sahifa" . env('APP_ENV'));
 //        return "Bosh sahifa";
     }
 

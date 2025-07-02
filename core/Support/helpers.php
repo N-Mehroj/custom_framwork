@@ -31,3 +31,9 @@ if (!function_exists('config')) {
         );
     }
 }
+
+if (!function_exists('env')) {
+    function env($key, $default = null) {
+        return $_ENV[$key] ?? getenv($key) ?: $default;
+    }
+}
