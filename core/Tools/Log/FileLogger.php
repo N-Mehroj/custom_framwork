@@ -2,7 +2,7 @@
 
 namespace Core\Tools\Log;
 
-use Core\Contract\LoggerInterface;
+use Core\Contract\Log\LoggerInterface;
 
 class FileLogger implements LoggerInterface
 {

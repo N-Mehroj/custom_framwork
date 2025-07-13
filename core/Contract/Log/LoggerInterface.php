@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Contract;
+namespace Core\Contract\Log;
 
 interface LoggerInterface
 {

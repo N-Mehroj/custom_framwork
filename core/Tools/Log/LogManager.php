@@ -2,8 +2,7 @@
 
 namespace Core\Tools\Log;
 
-use Core\Contract\LoggerInterface;
-use Core\Support\Facade\Log;
+use Core\Contract\Log\LoggerInterface;
 
 class LogManager implements LoggerInterface
 {
@@ -55,12 +54,20 @@ class LogManager implements LoggerInterface
         return $this->default;
     }
 
+    /**
+     * @param string|null $driver
+     * @return LoggerInterface
+     */
     public function driver(?string $driver = null): LoggerInterface
     {
         $driver = $driver ?? $this->getDefaultDriver();
         return $this->channels[$driver] ??= $this->resolve($driver);
     }
 
+    /**
+     * @param string $driver
+     * @return LoggerInterface
+     */
     protected function resolve(string $driver): LoggerInterface
     {
         return new Logger(new FileLogger());

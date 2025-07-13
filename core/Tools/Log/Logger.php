@@ -4,7 +4,7 @@ namespace Core\Tools\Log;
 
 use Closure;
 use Core\Contract\Event\Dispatcher;
-use Core\Contract\LoggerInterface;
+use Core\Contract\Log\LoggerInterface;
 use Core\Tools\Log\Event\MessageLogged;
 use RuntimeException;
 

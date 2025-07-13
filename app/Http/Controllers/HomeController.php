@@ -7,7 +7,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return Log::warning("Bosh sahifa" . env('APP_ENV'));
+        print_r(config('session.lottery'));
 //        return "Bosh sahifa";
     }
 
